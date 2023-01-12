@@ -75,13 +75,16 @@ li {
     justify-content: center;
 }
 
-/*
+*/
 
 ABOUT
 
-/*
+*/
 
 #about {
     padding: 48px 0;
 }
 
+h2 {
+    font-size: 60px;
+}
