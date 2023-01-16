@@ -75,14 +75,19 @@ li {
     justify-content: center;
 }
 
+#about,
+#discord,
+#contact {
+    padding: 48px 0;
+}
+
+
 /*
 
 ABOUT
 
 */
-
 #about {
-    padding: 48px 0;
     background-color: #f8ffdc;
 }
 
@@ -125,8 +130,34 @@ DISCORD
 */
 
 #discord {
-background-color: blue;
+background-color: burlywood;
 }
+
+/*
+
+CONTACT
+
+*/
+
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+    
+}
+    
+    
 
 
 
